@@ -34,8 +34,7 @@ namespace v0903
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-            label1.Top += vy[0];
+                label1.Top += vy[0];
             label1.Left += vx[0];
             label2.Top += vy[1];
             label2.Left += vx[1];
